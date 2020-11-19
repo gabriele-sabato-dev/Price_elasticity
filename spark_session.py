@@ -1,13 +1,15 @@
 from pyspark.sql import SparkSession
+from pyspark.sql import Row
+from pyspark.sql import Column
 
-spark = SparkSession \
-    .builder \
-    .appName("Python Spark SQL")\
-    .config ()\
-    .getOrCreate()
+spark = SparkSession.builder.master('local').appName('Check min date').getOrCreate()
+df = spark.read.parquet(
+    '/Users/gabriele.sabato/PycharmProjects/raw_data/price_elasticity_model_data/part-00022-9c42d1d2-2e54-46e0-92b5-bcc38e88d3ab-c000.snappy.parquet',
+    header=True)
 
-spark.builder
+df.createOrReplaceTempView('tmp_table')
 
-pfile = spark.read.parquet('/Users/gabriele.sabato/PycharmProjects/price_elasticity_aggr/filtered.snappy.parquet')
+#df2 = spark.sql("SELECT MIN(update_date) from tmp_table")
 
-pfile.show()
+df2 = spark.sql("SELECT MAX(item_code) from tmp_table")
+print(df2.show())
