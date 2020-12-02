@@ -6,6 +6,8 @@
     <option name="recentlyUsedProfiles">
       <list>
         <option value="profile:default" />
+        <option value="profile:production" />
+        <option value="profile:spricer" />
       </list>
     </option>
     <option name="recentlyUsedRegions">
