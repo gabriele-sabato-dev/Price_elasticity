@@ -1,0 +1,1710 @@
+TEPPICHE & BODENBELÄGE exclusive Import 0
+Final coefficient =  0.427 +/- 0.012 
+
+TEPPICHE & BODENBELÄGE exclusive Import 1
+Final coefficient =  0.436 +/- 0.012 
+
+TEPPICHE & BODENBELÄGE exclusive EE 0
+Final coefficient =  0.361 +/- 0.012 
+
+TEPPICHE & BODENBELÄGE exclusive EE 1
+Final coefficient =  0.37 +/- 0.012 
+
+TEPPICHE & BODENBELÄGE exclusive Domestic 0
+Final coefficient =  0.333 +/- 0.012 
+
+TEPPICHE & BODENBELÄGE exclusive Domestic 1
+Final coefficient =  0.342 +/- 0.012 
+
+TEPPICHE & BODENBELÄGE other Import 0
+Final coefficient =  0.411 +/- 0.012 
+
+TEPPICHE & BODENBELÄGE other Import 1
+Final coefficient =  0.421 +/- 0.012 
+
+TEPPICHE & BODENBELÄGE other EE 0
+Final coefficient =  0.346 +/- 0.012 
+
+TEPPICHE & BODENBELÄGE other EE 1
+Final coefficient =  0.355 +/- 0.012 
+
+TEPPICHE & BODENBELÄGE other Domestic 0
+Final coefficient =  0.317 +/- 0.012 
+
+TEPPICHE & BODENBELÄGE other Domestic 1
+Final coefficient =  0.327 +/- 0.012 
+
+TEPPICHE & BODENBELÄGE thirdParty Import 0
+Final coefficient =  0.399 +/- 0.012 
+
+TEPPICHE & BODENBELÄGE thirdParty Import 1
+Final coefficient =  0.408 +/- 0.012 
+
+TEPPICHE & BODENBELÄGE thirdParty EE 0
+Final coefficient =  0.333 +/- 0.012 
+
+TEPPICHE & BODENBELÄGE thirdParty EE 1
+Final coefficient =  0.342 +/- 0.012 
+
+TEPPICHE & BODENBELÄGE thirdParty Domestic 0
+Final coefficient =  0.305 +/- 0.012 
+
+TEPPICHE & BODENBELÄGE thirdParty Domestic 1
+Final coefficient =  0.314 +/- 0.012 
+
+TEPPICHE & BODENBELÄGE ownDeveloped Import 0
+Final coefficient =  0.428 +/- 0.012 
+
+TEPPICHE & BODENBELÄGE ownDeveloped Import 1
+Final coefficient =  0.437 +/- 0.012 
+
+TEPPICHE & BODENBELÄGE ownDeveloped EE 0
+Final coefficient =  0.362 +/- 0.012 
+
+TEPPICHE & BODENBELÄGE ownDeveloped EE 1
+Final coefficient =  0.371 +/- 0.012 
+
+TEPPICHE & BODENBELÄGE ownDeveloped Domestic 0
+Final coefficient =  0.334 +/- 0.012 
+
+TEPPICHE & BODENBELÄGE ownDeveloped Domestic 1
+Final coefficient =  0.343 +/- 0.012 
+
+TEPPICHE & BODENBELÄGE whiteLabel Import 0
+Final coefficient =  0.405 +/- 0.012 
+
+TEPPICHE & BODENBELÄGE whiteLabel Import 1
+Final coefficient =  0.415 +/- 0.012 
+
+TEPPICHE & BODENBELÄGE whiteLabel EE 0
+Final coefficient =  0.34 +/- 0.012 
+
+TEPPICHE & BODENBELÄGE whiteLabel EE 1
+Final coefficient =  0.349 +/- 0.012 
+
+TEPPICHE & BODENBELÄGE whiteLabel Domestic 0
+Final coefficient =  0.312 +/- 0.012 
+
+TEPPICHE & BODENBELÄGE whiteLabel Domestic 1
+Final coefficient =  0.321 +/- 0.012 
+
+HAUSHALT exclusive Import 0
+Final coefficient =  0.177 +/- 0.047 
+
+HAUSHALT exclusive Import 1
+Final coefficient =  0.186 +/- 0.047 
+
+HAUSHALT exclusive EE 0
+Final coefficient =  0.111 +/- 0.047 
+
+HAUSHALT exclusive EE 1
+Final coefficient =  0.12 +/- 0.047 
+
+HAUSHALT exclusive Domestic 0
+Final coefficient =  0.083 +/- 0.047 
+
+HAUSHALT exclusive Domestic 1
+Final coefficient =  0.092 +/- 0.047 
+
+HAUSHALT other Import 0
+Final coefficient =  0.162 +/- 0.047 
+
+HAUSHALT other Import 1
+Final coefficient =  0.171 +/- 0.047 
+
+HAUSHALT other EE 0
+Final coefficient =  0.096 +/- 0.047 
+
+HAUSHALT other EE 1
+Final coefficient =  0.105 +/- 0.047 
+
+HAUSHALT other Domestic 0
+Final coefficient =  0.068 +/- 0.047 
+
+HAUSHALT other Domestic 1
+Final coefficient =  0.077 +/- 0.047 
+
+HAUSHALT thirdParty Import 0
+Final coefficient =  0.149 +/- 0.047 
+
+HAUSHALT thirdParty Import 1
+Final coefficient =  0.158 +/- 0.047 
+
+HAUSHALT thirdParty EE 0
+Final coefficient =  0.083 +/- 0.047 
+
+HAUSHALT thirdParty EE 1
+Final coefficient =  0.092 +/- 0.047 
+
+HAUSHALT thirdParty Domestic 0
+Final coefficient =  0.055 +/- 0.047 
+
+HAUSHALT thirdParty Domestic 1
+Final coefficient =  0.064 +/- 0.047 
+
+HAUSHALT ownDeveloped Import 0
+Final coefficient =  0.178 +/- 0.047 
+
+HAUSHALT ownDeveloped Import 1
+Final coefficient =  0.187 +/- 0.047 
+
+HAUSHALT ownDeveloped EE 0
+Final coefficient =  0.112 +/- 0.047 
+
+HAUSHALT ownDeveloped EE 1
+Final coefficient =  0.121 +/- 0.047 
+
+HAUSHALT ownDeveloped Domestic 0
+Final coefficient =  0.084 +/- 0.047 
+
+HAUSHALT ownDeveloped Domestic 1
+Final coefficient =  0.093 +/- 0.047 
+
+HAUSHALT whiteLabel Import 0
+Final coefficient =  0.156 +/- 0.047 
+
+HAUSHALT whiteLabel Import 1
+Final coefficient =  0.165 +/- 0.047 
+
+HAUSHALT whiteLabel EE 0
+Final coefficient =  0.09 +/- 0.047 
+
+HAUSHALT whiteLabel EE 1
+Final coefficient =  0.099 +/- 0.047 
+
+HAUSHALT whiteLabel Domestic 0
+Final coefficient =  0.062 +/- 0.047 
+
+HAUSHALT whiteLabel Domestic 1
+Final coefficient =  0.071 +/- 0.047 
+
+ESSZIMMERTISCHE exclusive Import 0
+Final coefficient =  0.431 +/- 0.012 
+
+ESSZIMMERTISCHE exclusive Import 1
+Final coefficient =  0.44 +/- 0.012 
+
+ESSZIMMERTISCHE exclusive EE 0
+Final coefficient =  0.365 +/- 0.012 
+
+ESSZIMMERTISCHE exclusive EE 1
+Final coefficient =  0.374 +/- 0.012 
+
+ESSZIMMERTISCHE exclusive Domestic 0
+Final coefficient =  0.337 +/- 0.012 
+
+ESSZIMMERTISCHE exclusive Domestic 1
+Final coefficient =  0.346 +/- 0.012 
+
+ESSZIMMERTISCHE other Import 0
+Final coefficient =  0.415 +/- 0.012 
+
+ESSZIMMERTISCHE other Import 1
+Final coefficient =  0.424 +/- 0.012 
+
+ESSZIMMERTISCHE other EE 0
+Final coefficient =  0.349 +/- 0.012 
+
+ESSZIMMERTISCHE other EE 1
+Final coefficient =  0.358 +/- 0.012 
+
+ESSZIMMERTISCHE other Domestic 0
+Final coefficient =  0.321 +/- 0.012 
+
+ESSZIMMERTISCHE other Domestic 1
+Final coefficient =  0.33 +/- 0.012 
+
+ESSZIMMERTISCHE thirdParty Import 0
+Final coefficient =  0.403 +/- 0.012 
+
+ESSZIMMERTISCHE thirdParty Import 1
+Final coefficient =  0.412 +/- 0.012 
+
+ESSZIMMERTISCHE thirdParty EE 0
+Final coefficient =  0.337 +/- 0.012 
+
+ESSZIMMERTISCHE thirdParty EE 1
+Final coefficient =  0.346 +/- 0.012 
+
+ESSZIMMERTISCHE thirdParty Domestic 0
+Final coefficient =  0.309 +/- 0.012 
+
+ESSZIMMERTISCHE thirdParty Domestic 1
+Final coefficient =  0.318 +/- 0.012 
+
+ESSZIMMERTISCHE ownDeveloped Import 0
+Final coefficient =  0.432 +/- 0.012 
+
+ESSZIMMERTISCHE ownDeveloped Import 1
+Final coefficient =  0.441 +/- 0.012 
+
+ESSZIMMERTISCHE ownDeveloped EE 0
+Final coefficient =  0.366 +/- 0.012 
+
+ESSZIMMERTISCHE ownDeveloped EE 1
+Final coefficient =  0.375 +/- 0.012 
+
+ESSZIMMERTISCHE ownDeveloped Domestic 0
+Final coefficient =  0.338 +/- 0.012 
+
+ESSZIMMERTISCHE ownDeveloped Domestic 1
+Final coefficient =  0.347 +/- 0.012 
+
+ESSZIMMERTISCHE whiteLabel Import 0
+Final coefficient =  0.409 +/- 0.012 
+
+ESSZIMMERTISCHE whiteLabel Import 1
+Final coefficient =  0.418 +/- 0.012 
+
+ESSZIMMERTISCHE whiteLabel EE 0
+Final coefficient =  0.343 +/- 0.012 
+
+ESSZIMMERTISCHE whiteLabel EE 1
+Final coefficient =  0.352 +/- 0.012 
+
+ESSZIMMERTISCHE whiteLabel Domestic 0
+Final coefficient =  0.315 +/- 0.012 
+
+ESSZIMMERTISCHE whiteLabel Domestic 1
+Final coefficient =  0.324 +/- 0.012 
+
+LEUCHTEN exclusive Import 0
+Final coefficient =  0.396 +/- 0.012 
+
+LEUCHTEN exclusive Import 1
+Final coefficient =  0.405 +/- 0.012 
+
+LEUCHTEN exclusive EE 0
+Final coefficient =  0.33 +/- 0.012 
+
+LEUCHTEN exclusive EE 1
+Final coefficient =  0.339 +/- 0.012 
+
+LEUCHTEN exclusive Domestic 0
+Final coefficient =  0.302 +/- 0.012 
+
+LEUCHTEN exclusive Domestic 1
+Final coefficient =  0.311 +/- 0.012 
+
+LEUCHTEN other Import 0
+Final coefficient =  0.381 +/- 0.012 
+
+LEUCHTEN other Import 1
+Final coefficient =  0.39 +/- 0.012 
+
+LEUCHTEN other EE 0
+Final coefficient =  0.315 +/- 0.012 
+
+LEUCHTEN other EE 1
+Final coefficient =  0.324 +/- 0.012 
+
+LEUCHTEN other Domestic 0
+Final coefficient =  0.287 +/- 0.012 
+
+LEUCHTEN other Domestic 1
+Final coefficient =  0.296 +/- 0.012 
+
+LEUCHTEN thirdParty Import 0
+Final coefficient =  0.368 +/- 0.012 
+
+LEUCHTEN thirdParty Import 1
+Final coefficient =  0.377 +/- 0.012 
+
+LEUCHTEN thirdParty EE 0
+Final coefficient =  0.302 +/- 0.012 
+
+LEUCHTEN thirdParty EE 1
+Final coefficient =  0.311 +/- 0.012 
+
+LEUCHTEN thirdParty Domestic 0
+Final coefficient =  0.274 +/- 0.012 
+
+LEUCHTEN thirdParty Domestic 1
+Final coefficient =  0.283 +/- 0.012 
+
+LEUCHTEN ownDeveloped Import 0
+Final coefficient =  0.397 +/- 0.012 
+
+LEUCHTEN ownDeveloped Import 1
+Final coefficient =  0.406 +/- 0.012 
+
+LEUCHTEN ownDeveloped EE 0
+Final coefficient =  0.331 +/- 0.012 
+
+LEUCHTEN ownDeveloped EE 1
+Final coefficient =  0.34 +/- 0.012 
+
+LEUCHTEN ownDeveloped Domestic 0
+Final coefficient =  0.303 +/- 0.012 
+
+LEUCHTEN ownDeveloped Domestic 1
+Final coefficient =  0.312 +/- 0.012 
+
+LEUCHTEN whiteLabel Import 0
+Final coefficient =  0.375 +/- 0.012 
+
+LEUCHTEN whiteLabel Import 1
+Final coefficient =  0.384 +/- 0.012 
+
+LEUCHTEN whiteLabel EE 0
+Final coefficient =  0.309 +/- 0.012 
+
+LEUCHTEN whiteLabel EE 1
+Final coefficient =  0.318 +/- 0.012 
+
+LEUCHTEN whiteLabel Domestic 0
+Final coefficient =  0.281 +/- 0.012 
+
+LEUCHTEN whiteLabel Domestic 1
+Final coefficient =  0.29 +/- 0.012 
+
+POLSTER exclusive Import 0
+Final coefficient =  0.398 +/- 0.012 
+
+POLSTER exclusive Import 1
+Final coefficient =  0.407 +/- 0.012 
+
+POLSTER exclusive EE 0
+Final coefficient =  0.332 +/- 0.012 
+
+POLSTER exclusive EE 1
+Final coefficient =  0.341 +/- 0.012 
+
+POLSTER exclusive Domestic 0
+Final coefficient =  0.304 +/- 0.012 
+
+POLSTER exclusive Domestic 1
+Final coefficient =  0.313 +/- 0.012 
+
+POLSTER other Import 0
+Final coefficient =  0.383 +/- 0.012 
+
+POLSTER other Import 1
+Final coefficient =  0.392 +/- 0.012 
+
+POLSTER other EE 0
+Final coefficient =  0.317 +/- 0.012 
+
+POLSTER other EE 1
+Final coefficient =  0.326 +/- 0.012 
+
+POLSTER other Domestic 0
+Final coefficient =  0.289 +/- 0.012 
+
+POLSTER other Domestic 1
+Final coefficient =  0.298 +/- 0.012 
+
+POLSTER thirdParty Import 0
+Final coefficient =  0.37 +/- 0.012 
+
+POLSTER thirdParty Import 1
+Final coefficient =  0.379 +/- 0.012 
+
+POLSTER thirdParty EE 0
+Final coefficient =  0.304 +/- 0.012 
+
+POLSTER thirdParty EE 1
+Final coefficient =  0.313 +/- 0.012 
+
+POLSTER thirdParty Domestic 0
+Final coefficient =  0.276 +/- 0.012 
+
+POLSTER thirdParty Domestic 1
+Final coefficient =  0.285 +/- 0.012 
+
+POLSTER ownDeveloped Import 0
+Final coefficient =  0.399 +/- 0.012 
+
+POLSTER ownDeveloped Import 1
+Final coefficient =  0.408 +/- 0.012 
+
+POLSTER ownDeveloped EE 0
+Final coefficient =  0.333 +/- 0.012 
+
+POLSTER ownDeveloped EE 1
+Final coefficient =  0.342 +/- 0.012 
+
+POLSTER ownDeveloped Domestic 0
+Final coefficient =  0.305 +/- 0.012 
+
+POLSTER ownDeveloped Domestic 1
+Final coefficient =  0.314 +/- 0.012 
+
+POLSTER whiteLabel Import 0
+Final coefficient =  0.377 +/- 0.012 
+
+POLSTER whiteLabel Import 1
+Final coefficient =  0.386 +/- 0.012 
+
+POLSTER whiteLabel EE 0
+Final coefficient =  0.311 +/- 0.012 
+
+POLSTER whiteLabel EE 1
+Final coefficient =  0.32 +/- 0.012 
+
+POLSTER whiteLabel Domestic 0
+Final coefficient =  0.283 +/- 0.012 
+
+POLSTER whiteLabel Domestic 1
+Final coefficient =  0.292 +/- 0.012 
+
+BÜRO exclusive Import 0
+Final coefficient =  0.441 +/- 0.012 
+
+BÜRO exclusive Import 1
+Final coefficient =  0.45 +/- 0.012 
+
+BÜRO exclusive EE 0
+Final coefficient =  0.375 +/- 0.012 
+
+BÜRO exclusive EE 1
+Final coefficient =  0.384 +/- 0.012 
+
+BÜRO exclusive Domestic 0
+Final coefficient =  0.347 +/- 0.012 
+
+BÜRO exclusive Domestic 1
+Final coefficient =  0.356 +/- 0.012 
+
+BÜRO other Import 0
+Final coefficient =  0.425 +/- 0.012 
+
+BÜRO other Import 1
+Final coefficient =  0.434 +/- 0.012 
+
+BÜRO other EE 0
+Final coefficient =  0.359 +/- 0.012 
+
+BÜRO other EE 1
+Final coefficient =  0.368 +/- 0.012 
+
+BÜRO other Domestic 0
+Final coefficient =  0.331 +/- 0.012 
+
+BÜRO other Domestic 1
+Final coefficient =  0.34 +/- 0.012 
+
+BÜRO thirdParty Import 0
+Final coefficient =  0.413 +/- 0.012 
+
+BÜRO thirdParty Import 1
+Final coefficient =  0.422 +/- 0.012 
+
+BÜRO thirdParty EE 0
+Final coefficient =  0.347 +/- 0.012 
+
+BÜRO thirdParty EE 1
+Final coefficient =  0.356 +/- 0.012 
+
+BÜRO thirdParty Domestic 0
+Final coefficient =  0.319 +/- 0.012 
+
+BÜRO thirdParty Domestic 1
+Final coefficient =  0.328 +/- 0.012 
+
+BÜRO ownDeveloped Import 0
+Final coefficient =  0.442 +/- 0.012 
+
+BÜRO ownDeveloped Import 1
+Final coefficient =  0.451 +/- 0.012 
+
+BÜRO ownDeveloped EE 0
+Final coefficient =  0.376 +/- 0.012 
+
+BÜRO ownDeveloped EE 1
+Final coefficient =  0.385 +/- 0.012 
+
+BÜRO ownDeveloped Domestic 0
+Final coefficient =  0.348 +/- 0.012 
+
+BÜRO ownDeveloped Domestic 1
+Final coefficient =  0.357 +/- 0.012 
+
+BÜRO whiteLabel Import 0
+Final coefficient =  0.419 +/- 0.012 
+
+BÜRO whiteLabel Import 1
+Final coefficient =  0.428 +/- 0.012 
+
+BÜRO whiteLabel EE 0
+Final coefficient =  0.353 +/- 0.012 
+
+BÜRO whiteLabel EE 1
+Final coefficient =  0.362 +/- 0.012 
+
+BÜRO whiteLabel Domestic 0
+Final coefficient =  0.325 +/- 0.012 
+
+BÜRO whiteLabel Domestic 1
+Final coefficient =  0.334 +/- 0.012 
+
+KINDER exclusive Import 0
+Final coefficient =  0.319 +/- 0.013 
+
+KINDER exclusive Import 1
+Final coefficient =  0.328 +/- 0.013 
+
+KINDER exclusive EE 0
+Final coefficient =  0.253 +/- 0.013 
+
+KINDER exclusive EE 1
+Final coefficient =  0.262 +/- 0.013 
+
+KINDER exclusive Domestic 0
+Final coefficient =  0.225 +/- 0.013 
+
+KINDER exclusive Domestic 1
+Final coefficient =  0.234 +/- 0.013 
+
+KINDER other Import 0
+Final coefficient =  0.303 +/- 0.013 
+
+KINDER other Import 1
+Final coefficient =  0.312 +/- 0.013 
+
+KINDER other EE 0
+Final coefficient =  0.237 +/- 0.013 
+
+KINDER other EE 1
+Final coefficient =  0.246 +/- 0.013 
+
+KINDER other Domestic 0
+Final coefficient =  0.209 +/- 0.013 
+
+KINDER other Domestic 1
+Final coefficient =  0.218 +/- 0.013 
+
+KINDER thirdParty Import 0
+Final coefficient =  0.291 +/- 0.013 
+
+KINDER thirdParty Import 1
+Final coefficient =  0.3 +/- 0.013 
+
+KINDER thirdParty EE 0
+Final coefficient =  0.225 +/- 0.013 
+
+KINDER thirdParty EE 1
+Final coefficient =  0.234 +/- 0.013 
+
+KINDER thirdParty Domestic 0
+Final coefficient =  0.197 +/- 0.013 
+
+KINDER thirdParty Domestic 1
+Final coefficient =  0.206 +/- 0.013 
+
+KINDER ownDeveloped Import 0
+Final coefficient =  0.32 +/- 0.013 
+
+KINDER ownDeveloped Import 1
+Final coefficient =  0.329 +/- 0.013 
+
+KINDER ownDeveloped EE 0
+Final coefficient =  0.254 +/- 0.013 
+
+KINDER ownDeveloped EE 1
+Final coefficient =  0.263 +/- 0.013 
+
+KINDER ownDeveloped Domestic 0
+Final coefficient =  0.226 +/- 0.013 
+
+KINDER ownDeveloped Domestic 1
+Final coefficient =  0.235 +/- 0.013 
+
+KINDER whiteLabel Import 0
+Final coefficient =  0.297 +/- 0.013 
+
+KINDER whiteLabel Import 1
+Final coefficient =  0.306 +/- 0.013 
+
+KINDER whiteLabel EE 0
+Final coefficient =  0.231 +/- 0.013 
+
+KINDER whiteLabel EE 1
+Final coefficient =  0.24 +/- 0.013 
+
+KINDER whiteLabel Domestic 0
+Final coefficient =  0.203 +/- 0.013 
+
+KINDER whiteLabel Domestic 1
+Final coefficient =  0.212 +/- 0.013 
+
+FLURMÖBEL exclusive Import 0
+Final coefficient =  0.444 +/- 0.012 
+
+FLURMÖBEL exclusive Import 1
+Final coefficient =  0.453 +/- 0.012 
+
+FLURMÖBEL exclusive EE 0
+Final coefficient =  0.378 +/- 0.012 
+
+FLURMÖBEL exclusive EE 1
+Final coefficient =  0.387 +/- 0.012 
+
+FLURMÖBEL exclusive Domestic 0
+Final coefficient =  0.35 +/- 0.012 
+
+FLURMÖBEL exclusive Domestic 1
+Final coefficient =  0.359 +/- 0.012 
+
+FLURMÖBEL other Import 0
+Final coefficient =  0.429 +/- 0.012 
+
+FLURMÖBEL other Import 1
+Final coefficient =  0.438 +/- 0.012 
+
+FLURMÖBEL other EE 0
+Final coefficient =  0.363 +/- 0.012 
+
+FLURMÖBEL other EE 1
+Final coefficient =  0.372 +/- 0.012 
+
+FLURMÖBEL other Domestic 0
+Final coefficient =  0.335 +/- 0.012 
+
+FLURMÖBEL other Domestic 1
+Final coefficient =  0.344 +/- 0.012 
+
+FLURMÖBEL thirdParty Import 0
+Final coefficient =  0.416 +/- 0.012 
+
+FLURMÖBEL thirdParty Import 1
+Final coefficient =  0.425 +/- 0.012 
+
+FLURMÖBEL thirdParty EE 0
+Final coefficient =  0.35 +/- 0.012 
+
+FLURMÖBEL thirdParty EE 1
+Final coefficient =  0.359 +/- 0.012 
+
+FLURMÖBEL thirdParty Domestic 0
+Final coefficient =  0.322 +/- 0.012 
+
+FLURMÖBEL thirdParty Domestic 1
+Final coefficient =  0.331 +/- 0.012 
+
+FLURMÖBEL ownDeveloped Import 0
+Final coefficient =  0.445 +/- 0.012 
+
+FLURMÖBEL ownDeveloped Import 1
+Final coefficient =  0.454 +/- 0.012 
+
+FLURMÖBEL ownDeveloped EE 0
+Final coefficient =  0.379 +/- 0.012 
+
+FLURMÖBEL ownDeveloped EE 1
+Final coefficient =  0.388 +/- 0.012 
+
+FLURMÖBEL ownDeveloped Domestic 0
+Final coefficient =  0.351 +/- 0.012 
+
+FLURMÖBEL ownDeveloped Domestic 1
+Final coefficient =  0.36 +/- 0.012 
+
+FLURMÖBEL whiteLabel Import 0
+Final coefficient =  0.423 +/- 0.012 
+
+FLURMÖBEL whiteLabel Import 1
+Final coefficient =  0.432 +/- 0.012 
+
+FLURMÖBEL whiteLabel EE 0
+Final coefficient =  0.357 +/- 0.012 
+
+FLURMÖBEL whiteLabel EE 1
+Final coefficient =  0.366 +/- 0.012 
+
+FLURMÖBEL whiteLabel Domestic 0
+Final coefficient =  0.329 +/- 0.012 
+
+FLURMÖBEL whiteLabel Domestic 1
+Final coefficient =  0.338 +/- 0.012 
+
+SCHLAFZIMMERMÖBEL exclusive Import 0
+Final coefficient =  0.384 +/- 0.012 
+
+SCHLAFZIMMERMÖBEL exclusive Import 1
+Final coefficient =  0.393 +/- 0.012 
+
+SCHLAFZIMMERMÖBEL exclusive EE 0
+Final coefficient =  0.318 +/- 0.012 
+
+SCHLAFZIMMERMÖBEL exclusive EE 1
+Final coefficient =  0.327 +/- 0.012 
+
+SCHLAFZIMMERMÖBEL exclusive Domestic 0
+Final coefficient =  0.29 +/- 0.012 
+
+SCHLAFZIMMERMÖBEL exclusive Domestic 1
+Final coefficient =  0.299 +/- 0.012 
+
+SCHLAFZIMMERMÖBEL other Import 0
+Final coefficient =  0.368 +/- 0.012 
+
+SCHLAFZIMMERMÖBEL other Import 1
+Final coefficient =  0.377 +/- 0.012 
+
+SCHLAFZIMMERMÖBEL other EE 0
+Final coefficient =  0.302 +/- 0.012 
+
+SCHLAFZIMMERMÖBEL other EE 1
+Final coefficient =  0.311 +/- 0.012 
+
+SCHLAFZIMMERMÖBEL other Domestic 0
+Final coefficient =  0.274 +/- 0.012 
+
+SCHLAFZIMMERMÖBEL other Domestic 1
+Final coefficient =  0.283 +/- 0.012 
+
+SCHLAFZIMMERMÖBEL thirdParty Import 0
+Final coefficient =  0.356 +/- 0.012 
+
+SCHLAFZIMMERMÖBEL thirdParty Import 1
+Final coefficient =  0.365 +/- 0.012 
+
+SCHLAFZIMMERMÖBEL thirdParty EE 0
+Final coefficient =  0.29 +/- 0.012 
+
+SCHLAFZIMMERMÖBEL thirdParty EE 1
+Final coefficient =  0.299 +/- 0.012 
+
+SCHLAFZIMMERMÖBEL thirdParty Domestic 0
+Final coefficient =  0.262 +/- 0.012 
+
+SCHLAFZIMMERMÖBEL thirdParty Domestic 1
+Final coefficient =  0.271 +/- 0.012 
+
+SCHLAFZIMMERMÖBEL ownDeveloped Import 0
+Final coefficient =  0.385 +/- 0.012 
+
+SCHLAFZIMMERMÖBEL ownDeveloped Import 1
+Final coefficient =  0.394 +/- 0.012 
+
+SCHLAFZIMMERMÖBEL ownDeveloped EE 0
+Final coefficient =  0.319 +/- 0.012 
+
+SCHLAFZIMMERMÖBEL ownDeveloped EE 1
+Final coefficient =  0.328 +/- 0.012 
+
+SCHLAFZIMMERMÖBEL ownDeveloped Domestic 0
+Final coefficient =  0.291 +/- 0.012 
+
+SCHLAFZIMMERMÖBEL ownDeveloped Domestic 1
+Final coefficient =  0.3 +/- 0.012 
+
+SCHLAFZIMMERMÖBEL whiteLabel Import 0
+Final coefficient =  0.362 +/- 0.012 
+
+SCHLAFZIMMERMÖBEL whiteLabel Import 1
+Final coefficient =  0.371 +/- 0.012 
+
+SCHLAFZIMMERMÖBEL whiteLabel EE 0
+Final coefficient =  0.296 +/- 0.012 
+
+SCHLAFZIMMERMÖBEL whiteLabel EE 1
+Final coefficient =  0.305 +/- 0.012 
+
+SCHLAFZIMMERMÖBEL whiteLabel Domestic 0
+Final coefficient =  0.268 +/- 0.012 
+
+SCHLAFZIMMERMÖBEL whiteLabel Domestic 1
+Final coefficient =  0.277 +/- 0.012 
+
+WOHNEN exclusive Import 0
+Final coefficient =  0.455 +/- 0.012 
+
+WOHNEN exclusive Import 1
+Final coefficient =  0.464 +/- 0.012 
+
+WOHNEN exclusive EE 0
+Final coefficient =  0.389 +/- 0.012 
+
+WOHNEN exclusive EE 1
+Final coefficient =  0.398 +/- 0.012 
+
+WOHNEN exclusive Domestic 0
+Final coefficient =  0.361 +/- 0.012 
+
+WOHNEN exclusive Domestic 1
+Final coefficient =  0.37 +/- 0.012 
+
+WOHNEN other Import 0
+Final coefficient =  0.439 +/- 0.012 
+
+WOHNEN other Import 1
+Final coefficient =  0.448 +/- 0.012 
+
+WOHNEN other EE 0
+Final coefficient =  0.373 +/- 0.012 
+
+WOHNEN other EE 1
+Final coefficient =  0.382 +/- 0.012 
+
+WOHNEN other Domestic 0
+Final coefficient =  0.345 +/- 0.012 
+
+WOHNEN other Domestic 1
+Final coefficient =  0.354 +/- 0.012 
+
+WOHNEN thirdParty Import 0
+Final coefficient =  0.427 +/- 0.012 
+
+WOHNEN thirdParty Import 1
+Final coefficient =  0.436 +/- 0.012 
+
+WOHNEN thirdParty EE 0
+Final coefficient =  0.361 +/- 0.012 
+
+WOHNEN thirdParty EE 1
+Final coefficient =  0.37 +/- 0.012 
+
+WOHNEN thirdParty Domestic 0
+Final coefficient =  0.333 +/- 0.012 
+
+WOHNEN thirdParty Domestic 1
+Final coefficient =  0.342 +/- 0.012 
+
+WOHNEN ownDeveloped Import 0
+Final coefficient =  0.456 +/- 0.012 
+
+WOHNEN ownDeveloped Import 1
+Final coefficient =  0.465 +/- 0.012 
+
+WOHNEN ownDeveloped EE 0
+Final coefficient =  0.39 +/- 0.012 
+
+WOHNEN ownDeveloped EE 1
+Final coefficient =  0.399 +/- 0.012 
+
+WOHNEN ownDeveloped Domestic 0
+Final coefficient =  0.362 +/- 0.012 
+
+WOHNEN ownDeveloped Domestic 1
+Final coefficient =  0.371 +/- 0.012 
+
+WOHNEN whiteLabel Import 0
+Final coefficient =  0.433 +/- 0.012 
+
+WOHNEN whiteLabel Import 1
+Final coefficient =  0.442 +/- 0.012 
+
+WOHNEN whiteLabel EE 0
+Final coefficient =  0.367 +/- 0.012 
+
+WOHNEN whiteLabel EE 1
+Final coefficient =  0.376 +/- 0.012 
+
+WOHNEN whiteLabel Domestic 0
+Final coefficient =  0.339 +/- 0.012 
+
+WOHNEN whiteLabel Domestic 1
+Final coefficient =  0.348 +/- 0.012 
+
+GARTEN exclusive Import 0
+Final coefficient =  0.32 +/- 0.012 
+
+GARTEN exclusive Import 1
+Final coefficient =  0.329 +/- 0.012 
+
+GARTEN exclusive EE 0
+Final coefficient =  0.254 +/- 0.012 
+
+GARTEN exclusive EE 1
+Final coefficient =  0.264 +/- 0.012 
+
+GARTEN exclusive Domestic 0
+Final coefficient =  0.226 +/- 0.012 
+
+GARTEN exclusive Domestic 1
+Final coefficient =  0.236 +/- 0.012 
+
+GARTEN other Import 0
+Final coefficient =  0.305 +/- 0.013 
+
+GARTEN other Import 1
+Final coefficient =  0.314 +/- 0.013 
+
+GARTEN other EE 0
+Final coefficient =  0.239 +/- 0.013 
+
+GARTEN other EE 1
+Final coefficient =  0.248 +/- 0.013 
+
+GARTEN other Domestic 0
+Final coefficient =  0.211 +/- 0.012 
+
+GARTEN other Domestic 1
+Final coefficient =  0.22 +/- 0.012 
+
+GARTEN thirdParty Import 0
+Final coefficient =  0.292 +/- 0.012 
+
+GARTEN thirdParty Import 1
+Final coefficient =  0.302 +/- 0.012 
+
+GARTEN thirdParty EE 0
+Final coefficient =  0.227 +/- 0.013 
+
+GARTEN thirdParty EE 1
+Final coefficient =  0.236 +/- 0.013 
+
+GARTEN thirdParty Domestic 0
+Final coefficient =  0.198 +/- 0.012 
+
+GARTEN thirdParty Domestic 1
+Final coefficient =  0.208 +/- 0.012 
+
+GARTEN ownDeveloped Import 0
+Final coefficient =  0.321 +/- 0.013 
+
+GARTEN ownDeveloped Import 1
+Final coefficient =  0.33 +/- 0.013 
+
+GARTEN ownDeveloped EE 0
+Final coefficient =  0.255 +/- 0.013 
+
+GARTEN ownDeveloped EE 1
+Final coefficient =  0.264 +/- 0.013 
+
+GARTEN ownDeveloped Domestic 0
+Final coefficient =  0.227 +/- 0.012 
+
+GARTEN ownDeveloped Domestic 1
+Final coefficient =  0.236 +/- 0.012 
+
+GARTEN whiteLabel Import 0
+Final coefficient =  0.299 +/- 0.012 
+
+GARTEN whiteLabel Import 1
+Final coefficient =  0.308 +/- 0.012 
+
+GARTEN whiteLabel EE 0
+Final coefficient =  0.233 +/- 0.012 
+
+GARTEN whiteLabel EE 1
+Final coefficient =  0.242 +/- 0.012 
+
+GARTEN whiteLabel Domestic 0
+Final coefficient =  0.205 +/- 0.012 
+
+GARTEN whiteLabel Domestic 1
+Final coefficient =  0.214 +/- 0.012 
+
+KÜCHE exclusive Import 0
+Final coefficient =  0.457 +/- 0.017 
+
+KÜCHE exclusive Import 1
+Final coefficient =  0.466 +/- 0.017 
+
+KÜCHE exclusive EE 0
+Final coefficient =  0.391 +/- 0.018 
+
+KÜCHE exclusive EE 1
+Final coefficient =  0.4 +/- 0.018 
+
+KÜCHE exclusive Domestic 0
+Final coefficient =  0.363 +/- 0.017 
+
+KÜCHE exclusive Domestic 1
+Final coefficient =  0.372 +/- 0.017 
+
+KÜCHE other Import 0
+Final coefficient =  0.441 +/- 0.018 
+
+KÜCHE other Import 1
+Final coefficient =  0.45 +/- 0.018 
+
+KÜCHE other EE 0
+Final coefficient =  0.375 +/- 0.018 
+
+KÜCHE other EE 1
+Final coefficient =  0.384 +/- 0.018 
+
+KÜCHE other Domestic 0
+Final coefficient =  0.347 +/- 0.018 
+
+KÜCHE other Domestic 1
+Final coefficient =  0.356 +/- 0.018 
+
+KÜCHE thirdParty Import 0
+Final coefficient =  0.429 +/- 0.018 
+
+KÜCHE thirdParty Import 1
+Final coefficient =  0.438 +/- 0.018 
+
+KÜCHE thirdParty EE 0
+Final coefficient =  0.363 +/- 0.018 
+
+KÜCHE thirdParty EE 1
+Final coefficient =  0.372 +/- 0.018 
+
+KÜCHE thirdParty Domestic 0
+Final coefficient =  0.335 +/- 0.018 
+
+KÜCHE thirdParty Domestic 1
+Final coefficient =  0.344 +/- 0.018 
+
+KÜCHE ownDeveloped Import 0
+Final coefficient =  0.458 +/- 0.018 
+
+KÜCHE ownDeveloped Import 1
+Final coefficient =  0.467 +/- 0.018 
+
+KÜCHE ownDeveloped EE 0
+Final coefficient =  0.392 +/- 0.018 
+
+KÜCHE ownDeveloped EE 1
+Final coefficient =  0.401 +/- 0.018 
+
+KÜCHE ownDeveloped Domestic 0
+Final coefficient =  0.364 +/- 0.018 
+
+KÜCHE ownDeveloped Domestic 1
+Final coefficient =  0.373 +/- 0.018 
+
+KÜCHE whiteLabel Import 0
+Final coefficient =  0.435 +/- 0.018 
+
+KÜCHE whiteLabel Import 1
+Final coefficient =  0.444 +/- 0.018 
+
+KÜCHE whiteLabel EE 0
+Final coefficient =  0.369 +/- 0.018 
+
+KÜCHE whiteLabel EE 1
+Final coefficient =  0.378 +/- 0.018 
+
+KÜCHE whiteLabel Domestic 0
+Final coefficient =  0.341 +/- 0.017 
+
+KÜCHE whiteLabel Domestic 1
+Final coefficient =  0.35 +/- 0.017 
+
+BOUTIQUE exclusive Import 0
+Final coefficient =  0.335 +/- 0.012 
+
+BOUTIQUE exclusive Import 1
+Final coefficient =  0.344 +/- 0.012 
+
+BOUTIQUE exclusive EE 0
+Final coefficient =  0.269 +/- 0.012 
+
+BOUTIQUE exclusive EE 1
+Final coefficient =  0.278 +/- 0.012 
+
+BOUTIQUE exclusive Domestic 0
+Final coefficient =  0.241 +/- 0.012 
+
+BOUTIQUE exclusive Domestic 1
+Final coefficient =  0.25 +/- 0.012 
+
+BOUTIQUE other Import 0
+Final coefficient =  0.319 +/- 0.012 
+
+BOUTIQUE other Import 1
+Final coefficient =  0.328 +/- 0.012 
+
+BOUTIQUE other EE 0
+Final coefficient =  0.253 +/- 0.012 
+
+BOUTIQUE other EE 1
+Final coefficient =  0.262 +/- 0.012 
+
+BOUTIQUE other Domestic 0
+Final coefficient =  0.225 +/- 0.012 
+
+BOUTIQUE other Domestic 1
+Final coefficient =  0.234 +/- 0.012 
+
+BOUTIQUE thirdParty Import 0
+Final coefficient =  0.307 +/- 0.012 
+
+BOUTIQUE thirdParty Import 1
+Final coefficient =  0.316 +/- 0.012 
+
+BOUTIQUE thirdParty EE 0
+Final coefficient =  0.241 +/- 0.012 
+
+BOUTIQUE thirdParty EE 1
+Final coefficient =  0.25 +/- 0.012 
+
+BOUTIQUE thirdParty Domestic 0
+Final coefficient =  0.213 +/- 0.012 
+
+BOUTIQUE thirdParty Domestic 1
+Final coefficient =  0.222 +/- 0.012 
+
+BOUTIQUE ownDeveloped Import 0
+Final coefficient =  0.336 +/- 0.012 
+
+BOUTIQUE ownDeveloped Import 1
+Final coefficient =  0.345 +/- 0.012 
+
+BOUTIQUE ownDeveloped EE 0
+Final coefficient =  0.27 +/- 0.012 
+
+BOUTIQUE ownDeveloped EE 1
+Final coefficient =  0.279 +/- 0.012 
+
+BOUTIQUE ownDeveloped Domestic 0
+Final coefficient =  0.242 +/- 0.012 
+
+BOUTIQUE ownDeveloped Domestic 1
+Final coefficient =  0.251 +/- 0.012 
+
+BOUTIQUE whiteLabel Import 0
+Final coefficient =  0.313 +/- 0.012 
+
+BOUTIQUE whiteLabel Import 1
+Final coefficient =  0.322 +/- 0.012 
+
+BOUTIQUE whiteLabel EE 0
+Final coefficient =  0.247 +/- 0.012 
+
+BOUTIQUE whiteLabel EE 1
+Final coefficient =  0.256 +/- 0.012 
+
+BOUTIQUE whiteLabel Domestic 0
+Final coefficient =  0.219 +/- 0.012 
+
+BOUTIQUE whiteLabel Domestic 1
+Final coefficient =  0.228 +/- 0.012 
+
+BABY exclusive Import 0
+Final coefficient =  0.296 +/- 0.008 
+
+BABY exclusive Import 1
+Final coefficient =  0.305 +/- 0.008 
+
+BABY exclusive EE 0
+Final coefficient =  0.23 +/- 0.009 
+
+BABY exclusive EE 1
+Final coefficient =  0.239 +/- 0.009 
+
+BABY exclusive Domestic 0
+Final coefficient =  0.202 +/- 0.008 
+
+BABY exclusive Domestic 1
+Final coefficient =  0.211 +/- 0.008 
+
+BABY other Import 0
+Final coefficient =  0.281 +/- 0.009 
+
+BABY other Import 1
+Final coefficient =  0.29 +/- 0.009 
+
+BABY other EE 0
+Final coefficient =  0.215 +/- 0.009 
+
+BABY other EE 1
+Final coefficient =  0.224 +/- 0.009 
+
+BABY other Domestic 0
+Final coefficient =  0.187 +/- 0.009 
+
+BABY other Domestic 1
+Final coefficient =  0.196 +/- 0.009 
+
+BABY thirdParty Import 0
+Final coefficient =  0.268 +/- 0.009 
+
+BABY thirdParty Import 1
+Final coefficient =  0.277 +/- 0.009 
+
+BABY thirdParty EE 0
+Final coefficient =  0.202 +/- 0.009 
+
+BABY thirdParty EE 1
+Final coefficient =  0.211 +/- 0.009 
+
+BABY thirdParty Domestic 0
+Final coefficient =  0.174 +/- 0.009 
+
+BABY thirdParty Domestic 1
+Final coefficient =  0.183 +/- 0.009 
+
+BABY ownDeveloped Import 0
+Final coefficient =  0.297 +/- 0.009 
+
+BABY ownDeveloped Import 1
+Final coefficient =  0.306 +/- 0.009 
+
+BABY ownDeveloped EE 0
+Final coefficient =  0.231 +/- 0.009 
+
+BABY ownDeveloped EE 1
+Final coefficient =  0.24 +/- 0.009 
+
+BABY ownDeveloped Domestic 0
+Final coefficient =  0.203 +/- 0.009 
+
+BABY ownDeveloped Domestic 1
+Final coefficient =  0.212 +/- 0.009 
+
+BABY whiteLabel Import 0
+Final coefficient =  0.275 +/- 0.009 
+
+BABY whiteLabel Import 1
+Final coefficient =  0.284 +/- 0.009 
+
+BABY whiteLabel EE 0
+Final coefficient =  0.209 +/- 0.009 
+
+BABY whiteLabel EE 1
+Final coefficient =  0.218 +/- 0.009 
+
+BABY whiteLabel Domestic 0
+Final coefficient =  0.181 +/- 0.008 
+
+BABY whiteLabel Domestic 1
+Final coefficient =  0.19 +/- 0.008 
+
+HEIMTEXTILIEN exclusive Import 0
+Final coefficient =  0.358 +/- 0.012 
+
+HEIMTEXTILIEN exclusive Import 1
+Final coefficient =  0.367 +/- 0.012 
+
+HEIMTEXTILIEN exclusive EE 0
+Final coefficient =  0.292 +/- 0.012 
+
+HEIMTEXTILIEN exclusive EE 1
+Final coefficient =  0.302 +/- 0.012 
+
+HEIMTEXTILIEN exclusive Domestic 0
+Final coefficient =  0.264 +/- 0.012 
+
+HEIMTEXTILIEN exclusive Domestic 1
+Final coefficient =  0.273 +/- 0.012 
+
+HEIMTEXTILIEN other Import 0
+Final coefficient =  0.343 +/- 0.012 
+
+HEIMTEXTILIEN other Import 1
+Final coefficient =  0.352 +/- 0.012 
+
+HEIMTEXTILIEN other EE 0
+Final coefficient =  0.277 +/- 0.012 
+
+HEIMTEXTILIEN other EE 1
+Final coefficient =  0.286 +/- 0.012 
+
+HEIMTEXTILIEN other Domestic 0
+Final coefficient =  0.249 +/- 0.012 
+
+HEIMTEXTILIEN other Domestic 1
+Final coefficient =  0.258 +/- 0.012 
+
+HEIMTEXTILIEN thirdParty Import 0
+Final coefficient =  0.33 +/- 0.012 
+
+HEIMTEXTILIEN thirdParty Import 1
+Final coefficient =  0.34 +/- 0.012 
+
+HEIMTEXTILIEN thirdParty EE 0
+Final coefficient =  0.265 +/- 0.012 
+
+HEIMTEXTILIEN thirdParty EE 1
+Final coefficient =  0.274 +/- 0.012 
+
+HEIMTEXTILIEN thirdParty Domestic 0
+Final coefficient =  0.236 +/- 0.012 
+
+HEIMTEXTILIEN thirdParty Domestic 1
+Final coefficient =  0.246 +/- 0.012 
+
+HEIMTEXTILIEN ownDeveloped Import 0
+Final coefficient =  0.359 +/- 0.012 
+
+HEIMTEXTILIEN ownDeveloped Import 1
+Final coefficient =  0.368 +/- 0.012 
+
+HEIMTEXTILIEN ownDeveloped EE 0
+Final coefficient =  0.293 +/- 0.012 
+
+HEIMTEXTILIEN ownDeveloped EE 1
+Final coefficient =  0.302 +/- 0.012 
+
+HEIMTEXTILIEN ownDeveloped Domestic 0
+Final coefficient =  0.265 +/- 0.012 
+
+HEIMTEXTILIEN ownDeveloped Domestic 1
+Final coefficient =  0.274 +/- 0.012 
+
+HEIMTEXTILIEN whiteLabel Import 0
+Final coefficient =  0.337 +/- 0.012 
+
+HEIMTEXTILIEN whiteLabel Import 1
+Final coefficient =  0.346 +/- 0.012 
+
+HEIMTEXTILIEN whiteLabel EE 0
+Final coefficient =  0.271 +/- 0.012 
+
+HEIMTEXTILIEN whiteLabel EE 1
+Final coefficient =  0.28 +/- 0.012 
+
+HEIMTEXTILIEN whiteLabel Domestic 0
+Final coefficient =  0.243 +/- 0.012 
+
+HEIMTEXTILIEN whiteLabel Domestic 1
+Final coefficient =  0.252 +/- 0.012 
+
+MATRATZEN&LATTENROSTE exclusive Import 0
+Final coefficient =  0.426 +/- 0.012 
+
+MATRATZEN&LATTENROSTE exclusive Import 1
+Final coefficient =  0.435 +/- 0.012 
+
+MATRATZEN&LATTENROSTE exclusive EE 0
+Final coefficient =  0.36 +/- 0.012 
+
+MATRATZEN&LATTENROSTE exclusive EE 1
+Final coefficient =  0.369 +/- 0.012 
+
+MATRATZEN&LATTENROSTE exclusive Domestic 0
+Final coefficient =  0.332 +/- 0.012 
+
+MATRATZEN&LATTENROSTE exclusive Domestic 1
+Final coefficient =  0.341 +/- 0.012 
+
+MATRATZEN&LATTENROSTE other Import 0
+Final coefficient =  0.411 +/- 0.012 
+
+MATRATZEN&LATTENROSTE other Import 1
+Final coefficient =  0.42 +/- 0.012 
+
+MATRATZEN&LATTENROSTE other EE 0
+Final coefficient =  0.345 +/- 0.012 
+
+MATRATZEN&LATTENROSTE other EE 1
+Final coefficient =  0.354 +/- 0.012 
+
+MATRATZEN&LATTENROSTE other Domestic 0
+Final coefficient =  0.317 +/- 0.012 
+
+MATRATZEN&LATTENROSTE other Domestic 1
+Final coefficient =  0.326 +/- 0.012 
+
+MATRATZEN&LATTENROSTE thirdParty Import 0
+Final coefficient =  0.398 +/- 0.012 
+
+MATRATZEN&LATTENROSTE thirdParty Import 1
+Final coefficient =  0.407 +/- 0.012 
+
+MATRATZEN&LATTENROSTE thirdParty EE 0
+Final coefficient =  0.332 +/- 0.012 
+
+MATRATZEN&LATTENROSTE thirdParty EE 1
+Final coefficient =  0.341 +/- 0.012 
+
+MATRATZEN&LATTENROSTE thirdParty Domestic 0
+Final coefficient =  0.304 +/- 0.012 
+
+MATRATZEN&LATTENROSTE thirdParty Domestic 1
+Final coefficient =  0.313 +/- 0.012 
+
+MATRATZEN&LATTENROSTE ownDeveloped Import 0
+Final coefficient =  0.427 +/- 0.012 
+
+MATRATZEN&LATTENROSTE ownDeveloped Import 1
+Final coefficient =  0.436 +/- 0.012 
+
+MATRATZEN&LATTENROSTE ownDeveloped EE 0
+Final coefficient =  0.361 +/- 0.012 
+
+MATRATZEN&LATTENROSTE ownDeveloped EE 1
+Final coefficient =  0.37 +/- 0.012 
+
+MATRATZEN&LATTENROSTE ownDeveloped Domestic 0
+Final coefficient =  0.333 +/- 0.012 
+
+MATRATZEN&LATTENROSTE ownDeveloped Domestic 1
+Final coefficient =  0.342 +/- 0.012 
+
+MATRATZEN&LATTENROSTE whiteLabel Import 0
+Final coefficient =  0.405 +/- 0.012 
+
+MATRATZEN&LATTENROSTE whiteLabel Import 1
+Final coefficient =  0.414 +/- 0.012 
+
+MATRATZEN&LATTENROSTE whiteLabel EE 0
+Final coefficient =  0.339 +/- 0.012 
+
+MATRATZEN&LATTENROSTE whiteLabel EE 1
+Final coefficient =  0.348 +/- 0.012 
+
+MATRATZEN&LATTENROSTE whiteLabel Domestic 0
+Final coefficient =  0.311 +/- 0.012 
+
+MATRATZEN&LATTENROSTE whiteLabel Domestic 1
+Final coefficient =  0.32 +/- 0.012 
+
+BETTEN exclusive Import 0
+Final coefficient =  0.366 +/- 0.012 
+
+BETTEN exclusive Import 1
+Final coefficient =  0.375 +/- 0.012 
+
+BETTEN exclusive EE 0
+Final coefficient =  0.3 +/- 0.012 
+
+BETTEN exclusive EE 1
+Final coefficient =  0.309 +/- 0.012 
+
+BETTEN exclusive Domestic 0
+Final coefficient =  0.272 +/- 0.012 
+
+BETTEN exclusive Domestic 1
+Final coefficient =  0.281 +/- 0.012 
+
+BETTEN other Import 0
+Final coefficient =  0.351 +/- 0.012 
+
+BETTEN other Import 1
+Final coefficient =  0.36 +/- 0.012 
+
+BETTEN other EE 0
+Final coefficient =  0.285 +/- 0.012 
+
+BETTEN other EE 1
+Final coefficient =  0.294 +/- 0.012 
+
+BETTEN other Domestic 0
+Final coefficient =  0.257 +/- 0.012 
+
+BETTEN other Domestic 1
+Final coefficient =  0.266 +/- 0.012 
+
+BETTEN thirdParty Import 0
+Final coefficient =  0.338 +/- 0.012 
+
+BETTEN thirdParty Import 1
+Final coefficient =  0.347 +/- 0.012 
+
+BETTEN thirdParty EE 0
+Final coefficient =  0.272 +/- 0.012 
+
+BETTEN thirdParty EE 1
+Final coefficient =  0.281 +/- 0.012 
+
+BETTEN thirdParty Domestic 0
+Final coefficient =  0.244 +/- 0.012 
+
+BETTEN thirdParty Domestic 1
+Final coefficient =  0.253 +/- 0.012 
+
+BETTEN ownDeveloped Import 0
+Final coefficient =  0.367 +/- 0.012 
+
+BETTEN ownDeveloped Import 1
+Final coefficient =  0.376 +/- 0.012 
+
+BETTEN ownDeveloped EE 0
+Final coefficient =  0.301 +/- 0.012 
+
+BETTEN ownDeveloped EE 1
+Final coefficient =  0.31 +/- 0.012 
+
+BETTEN ownDeveloped Domestic 0
+Final coefficient =  0.273 +/- 0.012 
+
+BETTEN ownDeveloped Domestic 1
+Final coefficient =  0.282 +/- 0.012 
+
+BETTEN whiteLabel Import 0
+Final coefficient =  0.345 +/- 0.012 
+
+BETTEN whiteLabel Import 1
+Final coefficient =  0.354 +/- 0.012 
+
+BETTEN whiteLabel EE 0
+Final coefficient =  0.279 +/- 0.012 
+
+BETTEN whiteLabel EE 1
+Final coefficient =  0.288 +/- 0.012 
+
+BETTEN whiteLabel Domestic 0
+Final coefficient =  0.251 +/- 0.012 
+
+BETTEN whiteLabel Domestic 1
+Final coefficient =  0.26 +/- 0.012 
+
+BAD exclusive Import 0
+Final coefficient =  0.455 +/- 0.012 
+
+BAD exclusive Import 1
+Final coefficient =  0.464 +/- 0.012 
+
+BAD exclusive EE 0
+Final coefficient =  0.389 +/- 0.012 
+
+BAD exclusive EE 1
+Final coefficient =  0.398 +/- 0.012 
+
+BAD exclusive Domestic 0
+Final coefficient =  0.361 +/- 0.012 
+
+BAD exclusive Domestic 1
+Final coefficient =  0.37 +/- 0.012 
+
+BAD other Import 0
+Final coefficient =  0.44 +/- 0.012 
+
+BAD other Import 1
+Final coefficient =  0.449 +/- 0.012 
+
+BAD other EE 0
+Final coefficient =  0.374 +/- 0.012 
+
+BAD other EE 1
+Final coefficient =  0.383 +/- 0.012 
+
+BAD other Domestic 0
+Final coefficient =  0.346 +/- 0.012 
+
+BAD other Domestic 1
+Final coefficient =  0.355 +/- 0.012 
+
+BAD thirdParty Import 0
+Final coefficient =  0.427 +/- 0.012 
+
+BAD thirdParty Import 1
+Final coefficient =  0.436 +/- 0.012 
+
+BAD thirdParty EE 0
+Final coefficient =  0.361 +/- 0.012 
+
+BAD thirdParty EE 1
+Final coefficient =  0.37 +/- 0.012 
+
+BAD thirdParty Domestic 0
+Final coefficient =  0.333 +/- 0.012 
+
+BAD thirdParty Domestic 1
+Final coefficient =  0.342 +/- 0.012 
+
+BAD ownDeveloped Import 0
+Final coefficient =  0.456 +/- 0.012 
+
+BAD ownDeveloped Import 1
+Final coefficient =  0.465 +/- 0.012 
+
+BAD ownDeveloped EE 0
+Final coefficient =  0.39 +/- 0.012 
+
+BAD ownDeveloped EE 1
+Final coefficient =  0.399 +/- 0.012 
+
+BAD ownDeveloped Domestic 0
+Final coefficient =  0.362 +/- 0.012 
+
+BAD ownDeveloped Domestic 1
+Final coefficient =  0.371 +/- 0.012 
+
+BAD whiteLabel Import 0
+Final coefficient =  0.434 +/- 0.012 
+
+BAD whiteLabel Import 1
+Final coefficient =  0.443 +/- 0.012 
+
+BAD whiteLabel EE 0
+Final coefficient =  0.368 +/- 0.012 
+
+BAD whiteLabel EE 1
+Final coefficient =  0.377 +/- 0.012 
+
+BAD whiteLabel Domestic 0
+Final coefficient =  0.34 +/- 0.012 
+
+BAD whiteLabel Domestic 1
+Final coefficient =  0.349 +/- 0.012 
+
+ESSZIMMERSTÜHLE&BÄNKE exclusive Import 0
+Final coefficient =  0.451 +/- 0.012 
+
+ESSZIMMERSTÜHLE&BÄNKE exclusive Import 1
+Final coefficient =  0.46 +/- 0.012 
+
+ESSZIMMERSTÜHLE&BÄNKE exclusive EE 0
+Final coefficient =  0.385 +/- 0.012 
+
+ESSZIMMERSTÜHLE&BÄNKE exclusive EE 1
+Final coefficient =  0.394 +/- 0.012 
+
+ESSZIMMERSTÜHLE&BÄNKE exclusive Domestic 0
+Final coefficient =  0.357 +/- 0.012 
+
+ESSZIMMERSTÜHLE&BÄNKE exclusive Domestic 1
+Final coefficient =  0.366 +/- 0.012 
+
+ESSZIMMERSTÜHLE&BÄNKE other Import 0
+Final coefficient =  0.435 +/- 0.012 
+
+ESSZIMMERSTÜHLE&BÄNKE other Import 1
+Final coefficient =  0.444 +/- 0.012 
+
+ESSZIMMERSTÜHLE&BÄNKE other EE 0
+Final coefficient =  0.369 +/- 0.012 
+
+ESSZIMMERSTÜHLE&BÄNKE other EE 1
+Final coefficient =  0.378 +/- 0.012 
+
+ESSZIMMERSTÜHLE&BÄNKE other Domestic 0
+Final coefficient =  0.341 +/- 0.012 
+
+ESSZIMMERSTÜHLE&BÄNKE other Domestic 1
+Final coefficient =  0.35 +/- 0.012 
+
+ESSZIMMERSTÜHLE&BÄNKE thirdParty Import 0
+Final coefficient =  0.423 +/- 0.012 
+
+ESSZIMMERSTÜHLE&BÄNKE thirdParty Import 1
+Final coefficient =  0.432 +/- 0.012 
+
+ESSZIMMERSTÜHLE&BÄNKE thirdParty EE 0
+Final coefficient =  0.357 +/- 0.012 
+
+ESSZIMMERSTÜHLE&BÄNKE thirdParty EE 1
+Final coefficient =  0.366 +/- 0.012 
+
+ESSZIMMERSTÜHLE&BÄNKE thirdParty Domestic 0
+Final coefficient =  0.329 +/- 0.012 
+
+ESSZIMMERSTÜHLE&BÄNKE thirdParty Domestic 1
+Final coefficient =  0.338 +/- 0.012 
+
+ESSZIMMERSTÜHLE&BÄNKE ownDeveloped Import 0
+Final coefficient =  0.452 +/- 0.012 
+
+ESSZIMMERSTÜHLE&BÄNKE ownDeveloped Import 1
+Final coefficient =  0.461 +/- 0.012 
+
+ESSZIMMERSTÜHLE&BÄNKE ownDeveloped EE 0
+Final coefficient =  0.386 +/- 0.012 
+
+ESSZIMMERSTÜHLE&BÄNKE ownDeveloped EE 1
+Final coefficient =  0.395 +/- 0.012 
+
+ESSZIMMERSTÜHLE&BÄNKE ownDeveloped Domestic 0
+Final coefficient =  0.358 +/- 0.012 
+
+ESSZIMMERSTÜHLE&BÄNKE ownDeveloped Domestic 1
+Final coefficient =  0.367 +/- 0.012 
+
+ESSZIMMERSTÜHLE&BÄNKE whiteLabel Import 0
+Final coefficient =  0.429 +/- 0.012 
+
+ESSZIMMERSTÜHLE&BÄNKE whiteLabel Import 1
+Final coefficient =  0.438 +/- 0.012 
+
+ESSZIMMERSTÜHLE&BÄNKE whiteLabel EE 0
+Final coefficient =  0.363 +/- 0.012 
+
+ESSZIMMERSTÜHLE&BÄNKE whiteLabel EE 1
+Final coefficient =  0.372 +/- 0.012 
+
+ESSZIMMERSTÜHLE&BÄNKE whiteLabel Domestic 0
+Final coefficient =  0.335 +/- 0.012 
+
+ESSZIMMERSTÜHLE&BÄNKE whiteLabel Domestic 1
+Final coefficient =  0.344 +/- 0.012 
+
