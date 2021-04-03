@@ -22,7 +22,7 @@ df_d_item = spark.read.parquet('/Users/gabriele.sabato/PycharmProjects/raw_data/
 df_d_item.createOrReplaceTempView('d_item_tmp')
 
 df_item_visits = spark.read.parquet(
-    '/Users/gabriele.sabato/PycharmProjects/raw_data/redshift_tables/item_visits/*2020*/*.parquet',header=True)
+    '/Users/gabriele.sabato/PycharmProjects/raw_data/redshift_tables/item_visits/*=202*/*.parquet',header=True)
 
 df_f_orders = spark.read.parquet(
     '/Users/gabriele.sabato/PycharmProjects/raw_data/redshift_tables/f_orders/*.parquet',header=True)
@@ -69,6 +69,7 @@ top_seller_list_string_10k = df_list_top_seller_10K.rdd.map(lambda x: x.item_cod
 
 
 List_of_n_items = np.arange(2000,10001,1000)
+List_of_n_items = [5000]
 print(List_of_n_items)
 
 map_of_items = {}
@@ -285,10 +286,10 @@ SELECT CAST(MIN(update_date) as date)                     AS min_date,
 
     pd_df_top_sellers['log_conv_rate']= np.log(pd_df_top_sellers['conv_rate']+0.0001)
 
-
+    pd_df_top_sellers['conv_rate']= pd_df_top_sellers['conv_rate'] + 0.000001
 # In[115]:
     N_fin_it_str = str(N_final_items)
-    final_name = '/Users/gabriele.sabato/PycharmProjects/raw_data/DataFrames/Top' + N_fin_it_str + '_seller_YTD_group_by_item_visit.pickle'
+    final_name = '/Users/gabriele.sabato/PycharmProjects/raw_data/DataFrames/Top' + N_fin_it_str + '_seller_YTD_group_by_item_visit_20210226.pickle'
     print(final_name)
     pd_df_top_sellers.to_pickle(final_name)
 

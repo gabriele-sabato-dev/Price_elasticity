@@ -63,12 +63,13 @@ df_list_top_seller.createOrReplaceTempView('top_seller_list')
 df_list_top_seller_10K= spark.sql("""
 SELECT item_code
 from top_seller_list
-""")
+LIMIT 10000""")
 
 top_seller_list_string_10k = df_list_top_seller_10K.rdd.map(lambda x: x.item_code).collect()
 
 
 List_of_n_items = np.arange(2000,10001,1000)
+List_of_n_items = [5000]
 print(List_of_n_items)
 
 map_of_items = {}
@@ -118,7 +119,7 @@ for key in map_of_items.keys():
 
 # In[30]:
 
-    df4 = spark.sql ("""SELECT item_code, item_main_category, item_sub_category_1, item_sub_category_2,item_parent_item_code from d_item_tmp where item_code in ({lista})""".format(lista=final_string))
+    df4 = spark.sql ("""SELECT item_code, item_skey, item_main_category, item_sub_category_1, item_sub_category_2,item_parent_item_code from d_item_tmp where item_code in ({lista})""".format(lista=final_string))
     #df4.show()
 
 # In[31]:
@@ -145,85 +146,25 @@ for key in map_of_items.keys():
 # In[34]:
     df_price_visit_join = spark.sql(sql_price_visit_join)
     df_price_visit_join.createOrReplaceTempView('mdt_YTD_it')
-    #df_price_visit_join.describe(['item_code']).show()
+    df_price_visit_join.show()
 
-
-# In[35]:
-
-
-    sql_top_item_query_group_by = """
-    WITH tmp_tbl AS (
-      SELECT *,
-             CASE
-                 WHEN lag(delivery_weeks, 1) OVER (PARTITION BY item_code ORDER BY update_date ASC) =
-                      delivery_weeks
-                     AND
-                      lag(item_price, 1) OVER (PARTITION BY item_code ORDER BY update_date ASC) =
-                      item_price
-                     THEN NULL
-                 ELSE RANK() OVER (PARTITION BY item_code ORDER BY update_date)
-                 END AS ranking_col --filled with row number or delivery week if the previous one is part of the same group,
-        FROM mdt_YTD_it
-  ),
-       tmp_tbl2 AS (
-           SELECT update_date,
-                  item_code,
-                  sales,
-                  all_unique_views,
-                  item_price,
-                  delivery_weeks,
-                  CASE
-                      WHEN ranking_col IS NULL
-                          THEN last(ranking_col, True) OVER (PARTITION BY item_code ORDER BY update_date ROWS BETWEEN UNBOUNDED PRECEDING and 1 PRECEDING)
-                      ELSE ranking_col
-                      END AS ranks
-             FROM tmp_tbl
-       )
-SELECT CAST(MIN(update_date) as date)                     AS min_date,
-       CAST (MAX(update_date) as date)                    AS max_date,
-       item_code,
-       item_price,
-       delivery_weeks,
-       avg(sales) as avg_sales,
-       avg(all_unique_views) as avg_unique_views,
-       CASE WHEN sum(all_unique_views) <> 0 THEN sum(sales)/sum(all_unique_views) ELSE NULL END as conv_rate,
-       CAST (datediff(MAX(update_date), MIN(update_date) ) + 1 as int) AS bin
-  FROM tmp_tbl2
- GROUP BY ranks, delivery_weeks, item_price, item_code
- ORDER BY item_code, min_date ASC;
-"""
-
-
-# In[36]:
-
-
-    #print(sql_top_item_query_group_by)
-
-
-# In[37]:
-
-
-    sql_top_item_df = spark.sql(sql_top_item_query_group_by)
-
-
-# In[38]:
-
-
-    #sql_top_item_df.show(5000,False)
-
-
-# In[101]:
-
-
-#CREATE A TABLE VIEW FOR TopX sellers
-    sql_top_item_df.createOrReplaceTempView('top_sellers')
 
 
 # In[102]:
 
 
     #JOIN THE TWO TABLEs
-    sql_join_query = " SELECT top.*, di.item_parent_item_code, di.item_main_category, di.item_sub_category_1, di.item_sub_category_2"                  "        from top_sellers as top "                  "INNER JOIN d_item_filtered as di on di.item_code = top.item_code "                 "ORDER BY top.min_date ASC"
+    sql_join_query = """ SELECT top.*,
+                         di.item_skey,
+                         di.item_parent_item_code,
+                         di.item_main_category,
+                         di.item_sub_category_1,
+                         di.item_sub_category_2
+                         from mdt_YTD_it as top 
+                         INNER JOIN d_item_filtered as di on di.item_code = top.item_code 
+                         where top.all_unique_views > 19 
+                         ORDER BY update_date ASC
+                         """
 
 
 # In[103]:
@@ -234,61 +175,78 @@ SELECT CAST(MIN(update_date) as date)                     AS min_date,
 
 # In[104]:
 
-
     final_top_seller_df = spark.sql(sql_join_query)
 
-
 # In[105]:
+from pyspark.sql import Window
+import pyspark.sql.functions as F
 
 
-    #final_top_seller_df.show(3000,False)
+#%%
+grp_window = Window.partitionBy('item_code')
+magic_percentile = F.expr('percentile_approx(item_price, 0.5)')
 
+final_top_seller_df_median= final_top_seller_df.withColumn('med_val', magic_percentile.over(grp_window))
+# In[105]:
+final_top_seller_df_median.createOrReplaceTempView('top_seller_median')
 
 # In[106]:
-
-
-    #final_top_seller_df.describe(['bin']).show()
-
-
+ready_to_test = spark.sql("""SELECT item_skey, 
+                                    MAX(med_val) as median_price_LYTD,
+                                    SUM(sales) as qty_sold_LYTD
+                                    FROM top_seller_median
+                                    GROUP BY item_skey
+                                    """)
 # In[107]:
 
+#ready_to_test.show()
 
-    pd_df_top_sellers = final_top_seller_df.toPandas()
+
+#final_top_seller_df_median.show()
+
+# In[107]:
+import pandas as pd
+
+pd_top_seller_median = ready_to_test.toPandas()
+
+pd_top_seller_median.to_pickle('/Users/gabriele.sabato/PycharmProjects/raw_data/DataFrames/Top5k_seller_YTD_median_price_tot_sales_20210226.pickle')
+
+    #pd_df_top_sellers = final_top_seller_df.toPandas()
 
 
 # In[110]:
 
 
-    pd_df_top_sellers['log_price'] = np.log(pd_df_top_sellers['item_price']+0.0001)
+    #pd_df_top_sellers['log_price'] = np.log(pd_df_top_sellers['item_price']+0.0001)
 
 
 # In[111]:
 
 
-    pd_df_top_sellers['log_delivery_weeks'] = np.log(pd_df_top_sellers['delivery_weeks']+0.0001)
+    #pd_df_top_sellers['log_delivery_weeks'] = np.log(pd_df_top_sellers['delivery_weeks']+0.0001)
 
 
 # In[112]:
 
 
-    pd_df_top_sellers['log_sales'] = np.log(pd_df_top_sellers['avg_sales']+0.0001)
+    #pd_df_top_sellers['log_sales'] = np.log(pd_df_top_sellers['avg_sales']+0.0001)
 
 
 # In[113]:
 
 
-    pd_df_top_sellers['log_avg_unique_views'] = np.log(pd_df_top_sellers['avg_unique_views']+0.0001)
+    #pd_df_top_sellers['log_avg_unique_views'] = np.log(pd_df_top_sellers['avg_unique_views']+0.0001)
 
 
 # In[114]:
 
 
-    pd_df_top_sellers['log_conv_rate']= np.log(pd_df_top_sellers['conv_rate']+0.0001)
+    #pd_df_top_sellers['log_conv_rate']= np.log(pd_df_top_sellers['conv_rate']+0.0001)
 
-
+    #pd_df_top_sellers['conv_rate']= pd_df_top_sellers['conv_rate'] + 0.000001
 # In[115]:
-    N_fin_it_str = str(N_final_items)
-    final_name = '/Users/gabriele.sabato/PycharmProjects/raw_data/DataFrames/Top' + N_fin_it_str + '_seller_YTD_group_by_item_visit.pickle'
-    print(final_name)
-    pd_df_top_sellers.to_pickle(final_name)
+    #N_fin_it_str = str(N_final_items)
+    #final_name = '/Users/gabriele.sabato/PycharmProjects/raw_data/DataFrames/Top' + N_fin_it_str + '_seller_YTD_group_by_item_visit_20210226.pickle'
+    #print(final_name)
+    #pd_df_top_sellers.to_pickle(final_name)
 
