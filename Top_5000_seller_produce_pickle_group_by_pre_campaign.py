@@ -100,7 +100,7 @@ SELECT di.item_code,
        INNER JOIN d_item_tmp di ON di.item_skey = fo.item_skey
 INNER JOIN d_order_flags dof on dof.order_flags_skey = fo.order_flags_skey
 
- WHERE c.date >= current_date - 1*interval ' 1 year'
+ WHERE c.date >= '2021-04-28' - 1*interval ' 1 year'
 and dof.is_cancelled_immediately = 'is not cancelled immediately'
 and dof.is_cancelled_after_payment = 'is not cancelled after payment'
 and dof.is_cancelled_before_payment = 'is not cancelled before payment'
@@ -157,21 +157,32 @@ for key in map_of_items.keys():
                                          meta_date,
                                         SUM(unique_views) as all_unique_views
                                     from item_visits
-                                  where item_code in ({lista})
+                                  where item_code in ({lista}) and meta_date <= '2021-04-28'
                                   GROUP BY item_code, meta_date""".format(lista=final_string))
     # df_item_visits_df.show()
 
     # In[29]:
 
     df2 = spark.sql(
-        """SELECT * from model_data_table where update_date >= '2020-01-01' and item_code in ({lista}) ORDER BY update_date""".format(
+        """SELECT * 
+            from model_data_table 
+            where update_date >= '2020-01-01'
+            and  update_date <= '2021-04-28' --pre campaign data
+            and item_code in ({lista}) 
+            ORDER BY update_date""".format(
             lista=final_string))
     # df2.show()
 
     # In[30]:
 
     df4 = spark.sql(
-        """SELECT item_code, item_main_category, item_sub_category_1, item_sub_category_2,item_parent_item_code from d_item_tmp where item_code in ({lista})""".format(
+        """SELECT item_code, 
+                  item_main_category,
+                  item_sub_category_1, 
+                  item_sub_category_2,
+                  item_parent_item_code 
+            from d_item_tmp 
+            where item_code in ({lista})""".format(
             lista=final_string))
     # df4.show()
 
@@ -275,7 +286,11 @@ SELECT CAST(MIN(update_date) as date)                     AS min_date,
     # In[102]:
 
     # JOIN THE TWO TABLEs
-    sql_join_query = " SELECT top.*, di.item_parent_item_code, di.item_main_category, di.item_sub_category_1, di.item_sub_category_2"                  "        from top_sellers as top "                  "INNER JOIN d_item_filtered as di on di.item_code = top.item_code "                 "ORDER BY top.min_date ASC"
+    sql_join_query = """
+    SELECT top.*, di.item_parent_item_code, di.item_main_category, di.item_sub_category_1, di.item_sub_category_2                          
+    from top_sellers as top                   
+    INNER JOIN d_item_filtered as di on di.item_code = top.item_code 
+    ORDER BY top.min_date ASC"""
 
     # In[103]:
 
@@ -328,7 +343,7 @@ SELECT CAST(MIN(update_date) as date)                     AS min_date,
     pd_df_top_sellers['log_avg_marketing_cost_spend'] = np.log(pd_df_top_sellers['avg_marketing_cost_spend'] + 0.0001)
     # In[116]:
     N_fin_it_str = str(N_final_items)
-    final_name = '/Users/gabriele.sabato/PycharmProjects/raw_data/DataFrames/Top' + N_fin_it_str + '_seller_YTD_group_by_item_visit_20210607.pickle'
+    final_name = '/Users/gabriele.sabato/PycharmProjects/raw_data/DataFrames/Top' + N_fin_it_str + '_seller_YTD_group_by_item_visit_20210607_pre_campaign.pickle'
     print(final_name)
     pd_df_top_sellers.dropna(inplace=True)
     pd_df_top_sellers.to_pickle(final_name)
