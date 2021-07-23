@@ -8,8 +8,6 @@ This file describes the workflow used to obtain price elasticities and implement
    * Introduce Top10k and introduce voucher value
 2) Run `Top_5000_seller_produce_pickle_group_by_pre_campaign.py`: 
     * Retrieve info from redshift/forecast tables and generate top5k items with enough Price variation and similarity
-
-
     * Date is before campaign 28 of April
    
 3) Run `whole_cat_produce_pickle_group_by.ipynb`:

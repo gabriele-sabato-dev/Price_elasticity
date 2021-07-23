@@ -6,12 +6,15 @@ from pyspark.sql.functions import *
 import pickle
 import pandas as pd
 import numpy as np
+import sys
+
+sys.('echo $JAVA_HOME')
 
 import psycopg2
 from pyspark.sql import SparkSession
 
-spark = SparkSession.builder.master('local').config('spark.driver.memory', '8g').appName(
-    'Ready_for_analysis').getOrCreate()
+spark = SparkSession.builder.master('local').config('spark.driver.memory', '16g').appName(
+    'Voucher_model').getOrCreate()
 
 
 def connect_redshift_db():
@@ -61,17 +64,47 @@ df_marketing_cost = query_to_dataframe(cursor_redshift, sql_query_market_cost)
 
 df_spark_market_cost = spark.createDataFrame(df_marketing_cost)
 
+#RETRIEVE VOUCHER VALUE FOR ALL ITEMS
+sql_voucher_value = """
+WITH vv as (SELECT product_code,
+       voucher_value,
+       campaign_date,
+       cp.webshop_code,
+       ROW_NUMBER() over (PARTITION BY product_code, campaign_date ORDER BY updated_at DESC) as rn
+  FROM public.campaign_details as cd
+       INNER JOIN public.campaign_product as cp on cp.campaign_id = cd.id and cp.key = cd.key and cp.webshop_code = 'DE'
+ WHERE campaign_date >= '2020-01-01'
+   and campaign_date <= '2021-04-28')
+   SELECT product_code, voucher_value, campaign_date, webshop_code
+   from vv
+where rn =1
+and voucher_value is not null
+ORDER BY product_code, campaign_date ASC"""
+
+df_voucher = query_to_dataframe(cursor_redshift, sql_voucher_value)
+
 df = spark.read.parquet(
     '/Users/gabriele.sabato/PycharmProjects/raw_data/price_elasticity_model_data/part-*',
     header=True)
 
 df.createOrReplaceTempView('model_data_table')
 
-# df.show()
+df_s_voucher = spark.createDataFrame(df_voucher)
+
+df_s_voucher.createOrReplaceTempView('model_voucher')
 
 df_d_item = spark.read.parquet('/Users/gabriele.sabato/PycharmProjects/raw_data/redshift_tables/d_item/*')
 
-df_d_item.createOrReplaceTempView('d_item_tmp')
+df_d_item.createOrReplaceTempView('d_item_pre_voucher')
+
+
+sql_apply_voucher = spark.sql("""
+SELECT dipv.*,
+       mv.voucher_value,
+       dipv.item_price * (1-mv.voucher_value) as discounted_price
+FROM d_item_pre_voucher as dipv
+INNER JOIN model_voucher as mv on mv.product_code = dipv.item_code and mv.campaign_date = dipv.meta_date
+""")
 
 df_item_visits = spark.read.parquet(
     '/Users/gabriele.sabato/PycharmProjects/raw_data/redshift_tables/item_visits/*=202*/*.parquet', header=True)
@@ -91,10 +124,10 @@ df_d_order_flags = spark.read.parquet(
 
 df_d_order_flags.createOrReplaceTempView('d_order_flags')
 
+
 df_list_top_seller = spark.sql("""
 SELECT di.item_code,
        sum(fo.amount + amount_discount) AS order_amount
-
   FROM f_orders as fo
        INNER JOIN d_calendar c ON c.date_skey = fo.order_date_skey
        INNER JOIN d_item_tmp di ON di.item_skey = fo.item_skey
@@ -118,9 +151,9 @@ LIMIT 10000""")
 
 top_seller_list_string_10k = df_list_top_seller_10K.rdd.map(lambda x: x.item_code).collect()
 
-List_of_n_items = np.arange(2000, 10001, 1000)
-List_of_n_items = [5000]
-print(List_of_n_items)
+#List_of_n_items = np.arange(2000, 10001, 1000)
+List_of_n_items = [10000] #how many items
+#print(List_of_n_items)
 
 map_of_items = {}
 
@@ -343,7 +376,7 @@ SELECT CAST(MIN(update_date) as date)                     AS min_date,
     pd_df_top_sellers['log_avg_marketing_cost_spend'] = np.log(pd_df_top_sellers['avg_marketing_cost_spend'] + 0.0001)
     # In[116]:
     N_fin_it_str = str(N_final_items)
-    final_name = '/Users/gabriele.sabato/PycharmProjects/raw_data/DataFrames/Top' + N_fin_it_str + '_seller_YTD_group_by_item_visit_20210607_pre_campaign.pickle'
+    final_name = '/Users/gabriele.sabato/PycharmProjects/raw_data/DataFrames/Top' + N_fin_it_str + '_seller_YTD_group_by_item_visit_20210615_pre_campaign_w_voucher.pickle'
     print(final_name)
     pd_df_top_sellers.dropna(inplace=True)
     pd_df_top_sellers.to_pickle(final_name)
